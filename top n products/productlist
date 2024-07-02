@@ -1,0 +1,13 @@
+import Filter from './Filter';
+
+const ProductList = () => {
+  // ... previous code
+
+  return (
+    <div>
+      <h1>Top Products</h1>
+      <Filter filters={filters} setFilters={setFilters} />
+      {/* ... previous code */}
+    </div>
+  );
+};
